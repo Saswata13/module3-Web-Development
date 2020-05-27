@@ -1,0 +1,147 @@
+body {
+    
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+h3 {
+    padding-top: 20px;
+    padding-bottom: 32px;
+    font-size: 16px;
+    font-size: 1.75em;
+}
+.nav-link {
+    text-align: center;
+}
+.navbar-nav {
+    background-color: maroon;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.navbar-brand{
+    padding-left: 1.2em;
+    padding-bottom: 0.6em;
+}
+.div1 > .s1 {
+background-color: lightblue;
+position: relative;
+
+}
+.div1 {
+    padding-bottom: 5px;
+}
+.div2 > .s1 {
+background-color: lightcoral;
+position: relative;
+}
+.div2 {
+    padding-bottom: 5px;
+}
+.div3 > .s1 {
+background-color: lightpink;
+position: relative;
+}
+.div3 {
+   
+}
+.s1 {
+    margin-bottom: 10px;
+    width: 100%;
+   
+    border: black solid 1px;
+    box-sizing: border-box;
+}
+
+.s1 > .gags > h4 {
+    margin: 0px;
+    color: black;
+   text-align: center;
+   font-size: 16px;
+   font-size: 1.25em;
+   
+}
+p {
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+}
+.C {
+    background-color:lightblue;
+    width: 100%;
+    padding: 0%;
+    padding-bottom: 5px;
+  
+    box-sizing: border-box;
+}
+.B {
+    background-color: lightcoral;
+    padding: 0%;
+    padding-bottom: 5px
+   
+    box-sizing: border-box;
+}
+.S {
+    background-color:lightpink;
+    padding: 0%; 
+   
+    box-sizing: border-box;
+}
+
+
+@media (min-width:768px) {                /*desktop view*/
+    .div1 {
+        
+    }
+    .div2 {
+      
+    }
+    .div3 {
+       
+    }
+    .navbar-nav, .btn{
+        visibility: hidden;
+    }
+
+}
+@media (max-width:767px) and (min-width:576px) {       /* tablet view */
+    .div1 {
+      
+    }
+    .div2 {
+       
+    }
+    .div3 {
+      
+    }
+    .navbar-nav, .btn{
+        visibility: visible;
+    }
+  
+}
+@media (max-width:575px) {       /* mobile view */
+    .div1 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .div2 {
+        padding-left: 20px;
+        padding-right: 20px;
+       
+    }
+    .div3 {
+        padding-left: 20px;
+        padding-right: 20px;
+       
+    }
+    .navbar-nav{
+        visibility: visisble;
+    }
+  
+}
